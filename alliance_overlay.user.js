@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MonaLisaClan
 // @namespace    http://tampermonkey.net/
-// @version      0.70
+// @version      0.10
 // @description  Keep the canvas beautiful!
 // @author       /u/djdogjuam2 & /u/irate_kalypso
 // @match        https://hot-potato.reddit.com/embed*
@@ -23,6 +23,12 @@ if (window.top !== window.self) {
         })())
 
     }, false);
+    
+    window.addEventListener("keypress", function(e) {
+    if (e.which == 81) {
+        console.log("hello you");
+    }
+  });
 }
 
 
