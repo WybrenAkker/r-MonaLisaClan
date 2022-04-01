@@ -18,6 +18,11 @@ if (window.top !== window.self) {
             i.src = "https://i.imgur.com/tiIMTXK.png";
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
             console.log(i);
+            
+            const cb = document.querySelector(".mona-lisa-zoom-button");
+            const c2 = toHtml(`<mona-lisa-icon-button id="place-template-button" class="visible" style="display:inline-block; top:110px; background-image:inherit">T</mona-lisa-icon-button>`);
+            cb.parentNode.insertBefore(c2, cb);
+            
             return i;
         })())
 
