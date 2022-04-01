@@ -26,7 +26,7 @@ if (window.top !== window.self) {
     
     let active = 1;
 
-document.addEventListener("keypress", function(e) {
+window.addEventListener("keypress", function(e) {
     if (e.which == 84) {
       const img = document.querySelector("overlay_img");
          if(active == 1) 
