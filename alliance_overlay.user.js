@@ -23,28 +23,19 @@ if (window.top !== window.self) {
         })())
 
     }, false);
-    
-    let active = 1;
 
-window.addEventListener("keypress", function(e) {
-    if (e.which == 84) {
-      const img = document.querySelector("overlay_img");
-         if(active == 1) 
-         {
-            active = 2;
-            img.style.opacity = 0.9;
-        } else if (active == 2) 
-        {
-            active = 0;
-            img.style.visibility = "hidden";
-        } 
-        else if (active == 0) 
-        {
-            active = 1;
-            img.style.visibility = "inherit";
-            img.style.opacity = 0.5;
+    window.addEventListener("keypress", function(e) {
+        if (e.which == 84) {
+          const img = document.querySelector("overlay_img");
+             if(img.style.opacity == 0.9)
+             {
+                img.style.opacity = 0;   
+             }
+             else
+             {
+                img.style.opacity = 0.9;   
+             }
         }
-    }
   });
 }
 
