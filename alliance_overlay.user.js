@@ -6,8 +6,8 @@
 // @author       /u/djdogjuam2 & /u/irate_kalypso
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/Walter-Hulsebos/r-MonaLisaClan/blob/main/alliance_overlay.user.js
-// @downloadURL  https://github.com/Walter-Hulsebos/r-MonaLisaClan/raw/main/alliance_overlay.user.js
+// @updateURL    https://github.com/WybrenAkker/r-MonaLisaClan/blob/main/alliance_overlay.user.js
+// @downloadURL  https://github.com/WybrenAkker/r-MonaLisaClan/blob/main/alliance_overlay.user.js
 // @grant        none
 // ==/UserScript==
 if (window.top !== window.self) {
