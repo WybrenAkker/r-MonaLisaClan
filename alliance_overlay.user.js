@@ -23,8 +23,8 @@ if (window.top !== window.self) {
         })())
 
     }, false);
-}
-let active = 1;
+    
+    let active = 1;
 
 document.addEventListener("keypress", function(e) {
     if (e.which == 84) {
@@ -46,4 +46,6 @@ document.addEventListener("keypress", function(e) {
         }
     }
   });
+}
+
 
